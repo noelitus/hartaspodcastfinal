@@ -1,0 +1,17 @@
+#debateForm {
+    margin: 20px;
+}
+
+#debateForm .label {
+    font-family: $fontTitulos;
+    @include texto (2rem, 600);
+    color: map-get($map: $colores, $key: 'cinco');
+}
+
+#debateForm input {
+    @include texto (1.5rem, 500);
+}
+
+#debateForm .opcion {
+    @include texto(1.5rem, 500);
+}
